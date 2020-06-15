@@ -3,13 +3,27 @@
     <head>
         <title>Home</title>
         <link rel="stylesheet" href="styles.css">
+
     </head>
-    <div class="navbar">
-      <a href="home.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-    </div>
+    <section id="header" class="fx-backstretch">
+      <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+      </div>
+      <br></br>
+      <p>This is an example of a simple HTML page with one paragraph.</p>
+      <p>This is an example of a simple HTML page with one paragraph.</p>
+      <p>This is an example of a simple HTML page with one paragraph.</p>
+      <p>This is an example of a simple HTML page with one paragraph.</p>
+      <p>This is an example of a simple HTML page with one paragraph.</p>
+      <p>This is an example of a simple HTML page with one paragraph.</p>
+    </section>
     <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script>
+          $("#header").backstretch("assets/img/gears-team-cooperate.jpg");
+        </script>
     </body>
 </html>
