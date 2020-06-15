@@ -79,6 +79,26 @@ figcaption {
   font-family: Syntax;
 }
 
+#image-processing {
+  background-color: white;
+  margin: 30px
+}
+
+#robotics {
+  background-color: white;
+  margin: 30px
+}
+
+#c-plus-plus {
+  background-color: white;
+  margin: 30px
+}
+
+#machine-automation {
+  background-color: white;
+  margin: 30px
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
