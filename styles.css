@@ -8,12 +8,14 @@ html, body {
   padding-left: 50px;
   font-size: 40px;
   color: white;
+  font-family: Syntax;
 }
 
 .header-subtitle-text p {
   padding-left: 50px;
   font-size: 30px;
   color: white;
+  font-family: Syntax;
 }
 
 .header-message-text p {
@@ -22,6 +24,7 @@ html, body {
   font-size: 20px;
   width: 50%;
   color: white;
+  font-family: Syntax;
 }
 
 .nav-images {
@@ -48,7 +51,7 @@ html, body {
 
 figcaption {
     margin: 5px 0 0 0;
-    font-family: Arial;
+    font-family: Syntax;
     text-align: center;
     color: black;
 }
@@ -60,10 +63,26 @@ figcaption {
     line-height: 0
 }
 
+.body {
+  background-color: white;
+  margin: 30px
+}
+
+.home-body-title p {
+  padding: 20px 20px 0px 20px;
+  font-size: 30px;
+  font-family: Syntax;
+}
+
+.home-body-paragraph p {
+  padding: 0px 20px 20px 20px;
+  font-family: Syntax;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: Syntax;
 }
 
 .navbar a {
