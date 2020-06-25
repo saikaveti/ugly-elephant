@@ -4,6 +4,21 @@ html, body {
   background-color: #F8F8F8;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Syntax;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .header-title-text p {
   padding-left: 50px;
   font-size: 40px;
@@ -63,7 +78,7 @@ figcaption {
     line-height: 0
 }
 
-.body {
+.home-body {
   background-color: white;
   margin: 30px
 }
@@ -132,19 +147,4 @@ figcaption {
   padding: 0px 20px 20px 20px;
   font-family: Syntax;
   clear:both
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Syntax;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
